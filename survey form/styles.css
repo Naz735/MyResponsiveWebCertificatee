@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  #title {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  #description {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  
+  #survey-form {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0
+  }

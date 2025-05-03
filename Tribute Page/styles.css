@@ -1,0 +1,69 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Main Container */
+  #main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Style */
+  #title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Image Container */
+  #img-div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Image Style */
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  /* Image Caption */
+  #img-caption {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Tribute Info Section */
+  #tribute-info {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* External Link Style */
+  #tribute-link {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
