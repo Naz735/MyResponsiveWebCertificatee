@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentation Topics</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Setup_and_Installation">Setup and Installation</a>
+    <a class="nav-link" href="#Syntax_and_Usage">Syntax and Usage</a>
+    <a class="nav-link" href="#Best_Practices">Best Practices</a>
+    <a class="nav-link" href="#Advanced_Topics">Advanced Topics</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>This documentation provides insight into the fictional language DocLang.</p>
+      <p>It is designed to teach beginners how to get started quickly.</p>
+      <code>// This is a comment</code>
+      <p>The goal is simplicity and clarity.</p>
+      <p>Let's walk through the basics first.</p>
+      <ul>
+        <li>What is DocLang?</li>
+        <li>Why use it?</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Setup_and_Installation">
+      <header>Setup and Installation</header>
+      <p>First, download the CLI tools from the official site.</p>
+      <p>Then install using the following command:</p>
+      <code>npm install -g doclang</code>
+      <p>Verify installation:</p>
+      <code>doclang --version</code>
+      <ul>
+        <li>Compatible with Windows/Mac/Linux</li>
+        <li>No admin rights needed</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Syntax_and_Usage">
+      <header>Syntax and Usage</header>
+      <p>DocLang syntax is inspired by Python and JavaScript.</p>
+      <p>Here's an example of a function:</p>
+      <code>function greet(name) { return "Hello " + name; }</code>
+      <p>Variables are declared with let or const.</p>
+      <p>Whitespace is not significant.</p>
+      <ul>
+        <li>Simple syntax</li>
+        <li>Dynamic typing</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Best_Practices">
+      <header>Best Practices</header>
+      <p>Keep functions small and focused.</p>
+      <p>Use meaningful variable names.</p>
+      <code>// Avoid naming like x1, x2, etc.</code>
+      <p>Comment only where necessary.</p>
+      <p>Write reusable modules.</p>
+      <ul>
+        <li>DRY principle</li>
+        <li>Code readability</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Advanced_Topics">
+      <header>Advanced Topics</header>
+      <p>This includes modules, closures, and async programming.</p>
+      <p>DocLang supports Promises:</p>
+      <code>fetchData().then(data => console.log(data));</code>
+      <p>You can also use async/await syntax:</p>
+      <code>let result = await fetchData();</code>
+      <ul>
+        <li>Closures</li>
+        <li>Modules</li>
+        <li>Async/Await</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
