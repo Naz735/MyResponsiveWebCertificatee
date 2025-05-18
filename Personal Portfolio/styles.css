@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+/* Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #61dafb;
+}
+
+/* Welcome Section */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(135deg, #3a3a52, #6b6b83);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#welcome-section p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Projects Section */
+#projects {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-tile {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+  transform: translateY(-5px);
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: 600;
+  display: block;
+}
+
+.project-tile img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* Profile Link */
+#profile-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #007acc;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#profile-link:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .project-tile {
+    width: 90%;
+  }
+
+  #welcome-section h1 {
+    font-size: 2rem;
+  }
+
+  #projects h2 {
+    font-size: 2rem;
+  }
+}
